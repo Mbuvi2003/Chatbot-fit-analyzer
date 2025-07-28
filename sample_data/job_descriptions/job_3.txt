@@ -1,0 +1,23 @@
+What You'll Do:
+
+Write backend code using Python (FastAPI)
+Build and maintain web applications using React, Vue, or Angular
+Handle database work with MySQL and Redis
+Set up and manage background tasks and message queues
+Work with Docker containers
+Use SSH for secure server access
+Help build and improve AI features using Large Language Models (LLMs)
+​Requirements
+
+What You Need:
+
+At least 4 years of real coding experience. Please provide a portfolio of your recent works to support this.
+Good general knowledge of the Python language and the FastAPI framework
+Experience with React, Vue, or Angular is required
+Good understanding of frontend development (HTML, CSS, JavaScript)
+Experience with SQL and NoSQL databases
+Familiarity with Redis / RabbitMQ or similar technologies is a plus.
+Basic understanding of AI and LLMs. If you have ever built an AI application, even better. Please include this in your application.
+Experience with Docker / Docker Swarm for development and production use-cases
+Knowledge of Git for code management
+Comfortable using Linux/SSH. Deployment on Linux servers will be a required skill.
