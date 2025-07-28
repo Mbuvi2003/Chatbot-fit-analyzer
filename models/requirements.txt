@@ -1,11 +1,9 @@
+transformers
+torch
+spacy
+pdfplumber
+python-docx
 pandas
 numpy
 scikit-learn
-spacy
-sentence-transformers
-pdfminer.six
-python-docx
-faiss-cpu
-tqdm
 nltk
-PyYAML
