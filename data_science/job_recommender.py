@@ -1,15 +1,17 @@
 #Load job listings file
 import pandas as pd
+import requests
+import io
 
-# Upload again if needed
-from google.colab import files
-uploaded = files.upload()
+url = "https://github.com/Mbuvi2003/Chatbot-fit-analyzer/raw/main/sample_data/Occupation Data.xlsx"
 
-# Load the Excel file (check your filename exactly!)
-df = pd.read_excel("Occupation Data.xlsx")
+response = requests.get(url)
+data = response.content
 
-# Preview the structure
-df.head()
+# Load Excel file into DataFrame
+df = pd.read_excel(io.BytesIO(data))
+
+df.head()  # View first few roles
 
 #Parse O*NET Job Roles into JSON
 roles_list = []
