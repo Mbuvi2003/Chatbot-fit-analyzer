@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import io
 
-url = "https://github.com/Mbuvi2003/Chatbot-fit-analyzer/raw/main/sample_data/Occupation Data.xlsx"
+url = "https://github.com/Mbuvi2003/Chatbot-fit-analyzer/sample_data/Occupation Data.xlsx"
 
 response = requests.get(url)
 data = response.content
