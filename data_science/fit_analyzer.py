@@ -1,6 +1,6 @@
 #Compares resume to job descriptions
 
-!pip install spacy
+
 !python -m spacy download en_core_web_sm
 #Skills extractor
 # Install Hugging Face Transformers and other tools
