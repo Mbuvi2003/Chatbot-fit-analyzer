@@ -7,3 +7,8 @@ pandas
 numpy
 scikit-learn
 nltk
+fastapi
+uvicorn
+nest_asyncio
+pyngrok
+pydantic
