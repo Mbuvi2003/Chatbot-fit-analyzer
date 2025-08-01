@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+transformers
+sentence-transformers
+spacy
+pdfplumber
+python-docx
+openpyxl
+pydantic
