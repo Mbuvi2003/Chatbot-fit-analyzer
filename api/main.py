@@ -33,3 +33,8 @@ def fit_analyzer(payload: FitAnalyzerRequest):
 def recommend_careers(payload: CareerRecommendationRequest):
     recommendations = recommend_career_fields(payload.resume_text, top_n=payload.top_n)
     return {"recommendations": recommendations}
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the ATS Resume Fit Analyzer"}
+
+# other endpoints here...
